@@ -15,6 +15,10 @@ def div(x,y):
     print(x / y)
 
 ##############################################################################################
+print("welcome to the calculator")
+print("what would you like to do?")
+print("Type(a)dd (s)ubtract (m)ultiply (d)ivide (q)uit")
+
 x = int(input("Enter your first number:"))
 y = int(input("Enter your second number:"))
 add(x,y)
